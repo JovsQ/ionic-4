@@ -9,4 +9,12 @@ export class HomePage {
 
   constructor() {}
 
+  text = 'Default text message.';
+  isDefault = false;
+
+  onChangeText() {
+    this.text = this.isDefault === false ?  'Text is false!' : 'Text is true!';
+    this.isDefault = !this.isDefault;
+  }
+
 }
