@@ -1,0 +1,7 @@
+{
+  "appId": "com.jovsq.ionic-introducation",
+  "appName": "ionic-introduction",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
